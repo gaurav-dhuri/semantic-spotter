@@ -42,4 +42,4 @@ Building a semantic spotter pipeline with LlamaIndex.
 
 ## Contact
 Created by Gaurav Dhuri
-Developed as part of the Advanced Regression Module required for Post Graduate Diploma in Machine Learning and AI - IIIT,Bangalore.
+Developed as part of the Semantic Spotter Assignment Module required for Post Graduate Diploma in Machine Learning and AI - IIIT,Bangalore.
