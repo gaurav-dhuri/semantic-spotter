@@ -1,14 +1,33 @@
-# semantic-spotter
-Building a sematic spotter pipeline with LlamaIndex.
+# Semantic Spotter
 
-Prerequisite to run the Symantic Spotter.
-Step1. : Run all the cell in install all required library and depended code.
-Step2. : Mount google drive - change the path where the files are store - execute the next block to read all the pdf files.
-Step3. : Read the OPENAI_API_KEY/cohere_key if you have from the userdata
-Step4. : Create nodes from the read documents - store it in a vector index.
-Step5. : Create template and pass those templates to the index as query engine and start quering in the index data.
-Step5. : Extract Source node, filename, page no, text from the response from the query engine.
-Step6. : Define the evaluation parameter.
-Step7. : Create a function to loop through multiple questions.
-Step8. : Pass the response generated to the evaluation parameters check the score from response evaluator.
- 
+Building a semantic spotter pipeline with LlamaIndex.
+
+## Prerequisites to Run the Semantic Spotter
+
+1. **Install Required Libraries and Dependencies**:  
+   Run all the cells that install the necessary libraries and code dependencies.
+
+2. **Mount Google Drive**:  
+   Mount Google Drive and change the path to where the files are stored. Execute the next block to read all the PDF files.
+
+3. **Set API Keys**:  
+   Read the `OPENAI_API_KEY` or `cohere_key` from user data if available.
+
+4. **Create Nodes**:  
+   Create nodes from the read documents and store them in a vector index.
+
+5. **Query the Index**:  
+   - Create templates and pass those templates to the index as a query engine.
+   - Start querying the indexed data.
+
+6. **Extract Query Response Details**:  
+   Extract source node, filename, page number, and text from the response provided by the query engine.
+
+7. **Define Evaluation Parameters**:  
+   Set up the evaluation parameters for assessing the responses.
+
+8. **Loop Through Multiple Questions**:  
+   Create a function to loop through multiple questions and process them.
+
+9. **Evaluate the Responses**:  
+   Pass the generated responses to the evaluation parameters and check the scores using the response evaluator.
